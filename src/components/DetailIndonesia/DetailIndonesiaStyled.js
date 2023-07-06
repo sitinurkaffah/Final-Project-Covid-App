@@ -13,11 +13,11 @@ const StyledDetailIndo = styled.div`
     margin: 10px;
 
     h1 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     :nth-child(1) .type {
