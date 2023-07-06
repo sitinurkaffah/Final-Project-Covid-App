@@ -8,7 +8,7 @@ const StyledIndo = styled.div`
     h2 {
         text-align: center;
         color: #06D6A0;
-        font-size: 50px;
+        font-size: 100px;
         font-weight: bold;
         margin-bottom: 20px;
     }
