@@ -6,12 +6,13 @@ const StyledRegional = styled.div`
     flex-wrap: wrap;
     justify-content: center;
 
-h2 {
+ h2 {
     text-align: center;
     color: #06D6A0;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
-}
+    }
 
 p {
     text-align: center;
