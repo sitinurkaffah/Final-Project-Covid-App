@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledGlobal = styled.div`
-    display: flex;
+       display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -47,5 +47,4 @@ const StyledGlobal = styled.div`
         */
     }
 `;
-
 export default StyledGlobal;
