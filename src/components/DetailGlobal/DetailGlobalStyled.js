@@ -47,11 +47,11 @@ const StyledDetailGlobal = styled.div`
     }  
 
     h1 {
-        font-size: 35px;
+        line-height: 1rem;
     }
 
     h2 {
-        font-size: 30px;
+        line-height: 0.8;
     }
 `;
 export default StyledDetailGlobal;
