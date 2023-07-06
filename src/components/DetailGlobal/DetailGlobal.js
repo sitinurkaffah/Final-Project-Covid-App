@@ -6,7 +6,7 @@ function DetailGlobal({detail_global}) {
     <StyledDetailGlobal>
       <div>
         <h1>{status}</h1>
-        <h2 className="type">{total}</h2>
+        <h3 className="type">{total}</h3>
       </div>
     </StyledDetailGlobal>
   );
