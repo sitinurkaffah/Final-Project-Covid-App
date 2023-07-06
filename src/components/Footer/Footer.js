@@ -2,7 +2,8 @@
  * Import CSS Module Footer.
  * Disimpan di object styles.
  */
-import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
+import StyledFooter from "./FooterStyled";
 
 function Footer() {
   /**
@@ -10,22 +11,32 @@ function Footer() {
    * Memanggilnya menggunakan expression.
    */
   return (
-    <div className={styles.container}>
-      <footer className={styles.footer}>
+    <StyledFooter>
+    <div >
+      <footer >
       <div>
-          <h1 className={styles.footer__brand}>Covid ID</h1>
-          <p className={styles.footer__author}>Developed by Siti Nur Kaffah</p>
+          <h1>Covid ID</h1>
+          <p>Developed by Siti Nur Kaffah</p>
         </div>
         <div>
-          <ul className={styles.footer__list}>
-            <li className={styles.footer__item}>Global</li>
-            <li className={styles.footer__item}>Indonesia</li>
-            <li className={styles.footer__item}>Provinsi</li>
-            <li className={styles.footer__item}>About</li>
+        <ul>
+            <li>
+              <Link to="/">Global</Link>
+            </li>
+            <li>
+              <Link to="/covid/indonesia">Indonesia</Link>
+            </li>
+            <li>
+              <Link to="/covid/provinsi">Provinsi</Link>
+            </li>
+            <li>
+              <Link>About</Link>
+            </li>
           </ul>
         </div>
       </footer>
     </div>
+    </StyledFooter>
   );
 }
 

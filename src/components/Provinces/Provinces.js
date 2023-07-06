@@ -1,22 +1,22 @@
-import styles from "./Provinces.module.css";
+import StyledProvinces from "./ProvincesStyled";
 import Table from "../Table/Table";
 
 function Provinces(props) {
-  const { dataProvinsi } = props;
-
+  const {dataProvinsi} = props
   return (
-    <div className={styles.container}>
-      <section className={styles.provinces} id="provinsi">
+    <StyledProvinces>
+    <div>
+      <section>
         <div>
-          <h2 className={styles.provinces__title}>
+          <h2>
             Provinsi
           </h2>
-          <p className={styles.provinces__subtitle}>
+          <p>
             Data Covid Berdasarkan Provinsi
           </p>
         </div>
-        <div className={styles.provinces__overflow}>
-          <table className={styles.provinces__table}>
+        <div className="overflow">
+          <table>
             <thead>
               <tr>
                 <th>No.</th>
@@ -36,6 +36,7 @@ function Provinces(props) {
         </div>
       </section>
     </div>
+    </StyledProvinces>
   );
 }
 

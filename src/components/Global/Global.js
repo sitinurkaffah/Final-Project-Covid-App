@@ -1,26 +1,28 @@
-import Card from "../Card/Card";
-import styles from "./Global.module.css"
-import data from "../../utils/constants/indonesia"
+import { useSelector } from "react-redux";
+import DetailGlobal from "../DetailGlobal/DetailGlobal";
+import StyledGlobal from "./GlobalStyled";
 
 function Global() {
-    const desc = ['confirmed', 'recovered', 'death'];
-    const { indonesia } = data;
+  const global = useSelector((store) => store.covid.covid);
+  const dataGlobal = global?.global || [];
 
-    return (
+  return (
+    <StyledGlobal>
+      <div>
         <div>
-        <div className={styles.container}>
-            <section className={styles.global}>
-            <h2 className={styles.global__title}>Indonesia</h2>
-            <p className={styles.global__subtitle}>Data Covid Berdasarkan Indonesia</p>
-            <div className={styles.global__container}>
-                {
-                indonesia.map((status, index) => {
-                    return <Card card={status} key={status.covid} style={desc[index]}/>
-                })}
+          <section>
+            <h2>Global Situation</h2>
+            <p>Data Covid Berdasarkan Global</p>
+            <div className="container">
+            {dataGlobal.map((detail_global, index) => (
+                <DetailGlobal key={index} detail_global={detail_global} />
+              ))}
             </div>
-            </section>
+          </section>
         </div>
-        </div>
-    );
+      </div>
+    </StyledGlobal>
+  );
 }
+
 export default Global;

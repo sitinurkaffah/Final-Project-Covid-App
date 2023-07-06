@@ -1,36 +1,37 @@
-/* Small Screen */
-.container {
-  margin: 1rem;
-}
+import styled from "styled-components";
 
-.hello {
+// Membuat Styled Component Movie
+const StyledHello = styled.div`
+  margin: 1rem;
+
+section {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.hello__left {
+.left {
   margin-bottom: 1rem;
 }
 
-.hello__title {
+h2 {
   color: #06D6A0;
   margin-bottom: 1rem;
   font-size: 2.44rem;
 }
 
-.hello__covid {
+h3 {
   color: #118AB2;
   margin-bottom: 1rem;
   font-size: 1.59rem;
 }
 
-.hello__description {
+p {
   color: #64748b;
   margin-bottom: 1rem;
 }
 
-.hello__button {
+.button {
   padding: 1rem 2rem;
   border: none;
   border-radius: 10px;
@@ -40,7 +41,7 @@
   cursor: pointer;
 }
 
-.hello__image {
+img{
   width: 100%; 
   max-height: 400px; 
   object-fit: cover; 
@@ -57,12 +58,10 @@
 
 /* Large Screen */
 @media (min-width: 992px) {
-.container {
   max-width: 1200px;
   margin: 3rem auto;
-}
 
-.hello {
+section {
   margin: 0 1rem;
   flex-direction: row;
   justify-content: space-between;
@@ -70,11 +69,14 @@
   text-align: left;
 }
 
-.hello__left {
+.left {
   flex-basis: 40%;
 }
 
-.hello__right {
+.right {
   flex-basis: 60%;
 }
 }
+`;
+
+export default StyledHello;
