@@ -6,7 +6,7 @@ function DetailRegional({ detail_regional }) {
   return (
     <StyledDetailRegional>
       <div className="item">
-        <h2>{name}</h2>
+        <h1>{name}</h1>
         <div className="data">
           <div className="data-item">
             <div>
