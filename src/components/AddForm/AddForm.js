@@ -42,21 +42,6 @@ function AddForm(props) {
         (data) => data.kota === provinsi
       );
 
-      // function updateProvinces() {
-      //   const index = provinces.findIndex((item) => item.kota === province); 
-      //   const foundProvince = provinces.find((item) => item.kota === province);
-
-        
-      //   // Akses provinsi (array) yang ingin diupdate menggunakan index. provinces [index] = {
-      //     provinces[index] = {
-      //   // Lakukan spread: copy provinsi yang sudah ditemukan sebelumnya
-      //   ...foundProvince,
-      //   // Update property berdasarkan nilai dari status: Teknik Computed Property [status]: parseInt(found Province[status]) + parseInt(jumlah),
-      //   [status]: parseInt(foundProvince[status]) + parseInt(jumlah),
-      //   };
-      //   // Update state: spread operator setProvinces([...provinces]);
-      //   setProvinces([...provinces]);
-      // }
       if (dataToUpdate) {
         if (status === "Kasus") {
           dataToUpdate.kasus += Number(jumlah);
@@ -84,7 +69,7 @@ function AddForm(props) {
     <div className={styles.container}>
       <img
         className={styles.form__image}
-        src="image2.png"
+        src={`${process.env.PUBLIC_URL}/image1.png`}
         alt=""
       />
       <form className={styles.form}>

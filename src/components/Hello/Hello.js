@@ -1,34 +1,39 @@
-import styles from "./Hello.module.css";
+import Button from "../ui/Button";
+import StyledHello from "./HelloStyled";
 
-function hello() {
+
+function Hello() {
   return (
-    <div className={styles.container}>
-      <section className={styles.hello}>
-        <div className={styles.hello__left}>
-          <h2 className={styles.hello__title}>Covid ID</h2>
-          <h3 className={styles.hello__covid}>
+    <StyledHello>
+    <div>
+      <section>
+        <div className="left">
+          <h2>Covid ID</h2>
+          <h3>
             Monitoring Perkembangan Covid
           </h3>
-          <p className={styles.hello__description}>
+          <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
             cum accusamus quisquam earum velit ea nobis maiores exercitationem
             nam temporibus.
           </p>
-          <button 
-          className={styles.hello__button} 
-          onClick={() => window.location.href='https://covid19.go.id/vaksin-covid19'}>
-          Vaccine </button>
+          <Button as="a" href='https://covid19.go.id/vaksin-covid19' 
+          target={"_blank"} 
+          variant="secondary" 
+          size="md">
+            Vaccine 
+          </Button>
         </div>
-        <div className="hello__right">
+        <div className="right">
           <img
-            className={styles.hello__image}
-            src="image1.png"
+            src={`${process.env.PUBLIC_URL}/image1.png`}
             alt="placeholder"
           />
         </div>
       </section>
     </div>
+    </StyledHello>
   );
 }
 
-export default hello;
+export default Hello;
