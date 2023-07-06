@@ -14,12 +14,12 @@ const StyledDetailGlobal = styled.div`
 
     h1 {
      text-align: center;
-     font-size: 40px;
+     font-size: 35px;
     }
 
-    h2 {
+    h3 {
      text-align: center;
-     font-size: 20px;
+     font-size: 30px;
     }
 
     :nth-child(1) .type {
