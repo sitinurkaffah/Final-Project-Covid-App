@@ -6,12 +6,13 @@ const StyledIndo = styled.div`
     justify-content: center;
 
     h2 {
-        text-align: center;
-        color: #06D6A0;
-        font-size: 100px;
-        font-weight: bold;
-        margin-bottom: 20px;
+     text-align: center;
+     color: #06D6A0;
+     font-size: 50px;
+     font-weight: bold;
+     margin-bottom: 20px;
     }
+    
     p {
         text-align: center;
         color: #118AB2;
