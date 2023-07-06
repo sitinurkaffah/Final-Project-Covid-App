@@ -18,6 +18,8 @@ const StyledDetailRegional = styled.div`
   }
 
   h1 {
+    color: #06D6A0;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
