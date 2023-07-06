@@ -18,12 +18,12 @@ const StyledDetailRegional = styled.div`
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 0.5rem;
     margin-bottom: 0.5rem;
     text-align: left;
   }
