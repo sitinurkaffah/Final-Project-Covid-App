@@ -17,7 +17,7 @@ const StyledDetailRegional = styled.div`
     flex: 1;
   }
 
-  h2 {
+  h1 {
     margin-bottom: 1rem;
   }
 
