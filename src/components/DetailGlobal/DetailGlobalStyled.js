@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledDetailIndo = styled.div`
+const StyledDetailGlobal = styled.div`
     padding: 25px 0px;
     box-shadow: 0 2px 9px 1px rgba(0, 0, 0, 0.5);
     border-radius: 24px;
@@ -13,11 +13,11 @@ const StyledDetailIndo = styled.div`
     margin: 10px;
 
     h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     :nth-child(1) .type {
@@ -45,12 +45,11 @@ const StyledDetailIndo = styled.div`
     }  
 
     h1 {
-        line-height: 1rem;
+        font-size: 35px;
     }
 
     h2 {
-        line-height: 0.8;
+        font-size: 30px;
     }
 `;
-
-export default StyledDetailIndo;
+export default StyledDetailGlobal;
