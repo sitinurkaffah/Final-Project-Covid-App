@@ -21,6 +21,7 @@ const StyledDetailRegional = styled.div`
     color: #06D6A0;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
