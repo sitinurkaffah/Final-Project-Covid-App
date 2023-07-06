@@ -14,7 +14,7 @@ const StyledDetailGlobal = styled.div`
 
     h1 {
      text-align: center;
-     font-size: 25px;
+     font-size: 45px;
     }
 
     h2 {
