@@ -13,9 +13,9 @@ function Hello() {
             Monitoring Perkembangan Covid
           </h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
-            cum accusamus quisquam earum velit ea nobis maiores exercitationem
-            nam temporibus.
+            Coronavirus atau lazim disebut COVID-19 merupakan virus yang menyebabkan terjadinya infeksi saluran pernapasan atas. 
+            Gejala COVID bisa berkisar ringan hingga sedang, seperti penyakit flu. 
+            Banyak orang terinfeksi virus ini, setidaknya satu kali dalam hidupnya
           </p>
           <Button as="a" href='https://covid19.go.id/vaksin-covid19' 
           target={"_blank"} 
