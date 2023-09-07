@@ -15,28 +15,29 @@ const StyledHello = styled.div`
   }
 
   h2 {
-    font-family: 'Roboto', sans-serif; /* Menggunakan Roboto atau jenis font yang Anda inginkan */
+    font-family: 'Roboto', sans-serif; 
     color: #06D6A0;
     margin-bottom: 1rem;
     font-size: 2.44rem;
+    font-weight: bold;
   }
 
   h3 {
-    font-family: 'Roboto', sans-serif; /* Menggunakan Roboto atau jenis font yang Anda inginkan */
+    font-family: 'Roboto', sans-serif; 
     color: #118AB2;
     margin-bottom: 1rem;
     font-size: 1.59rem;
   }
 
   p {
-    font-family: 'Roboto', sans-serif; /* Menggunakan Roboto atau jenis font yang Anda inginkan */
+    font-family: 'Roboto', sans-serif; 
     color: #64748b;
     margin-bottom: 1rem;
   }
 
   .button {
-    font-family: 'Roboto', sans-serif; /* Menggunakan Roboto atau jenis font yang Anda inginkan */
-    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif; 
+    padding: 1.8rem 2rem;
     border: none;
     border-radius: 10px;
     background-color: #06D6A0;
